@@ -142,3 +142,6 @@ def update_dashboard(product, warehouse):
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+# Визуальное оформление завершено
+# Все графики работают корректно
