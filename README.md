@@ -21,7 +21,7 @@
 
 1. Установите зависимости:
 ```bash
-pip install dash pandas plotly
+py -m pip install dash pandas plotly
 ```
 ### Запустите приложение:
 ```bash
