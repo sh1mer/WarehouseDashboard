@@ -8,6 +8,11 @@ import plotly.express as px
 import numpy as np
 from datetime import datetime, timedelta
 
+# Интерактивные элементы:
+# - Фильтры по товарам и складам
+# - 4 типа графиков
+# - Таблица с данными
+
 # Создаем тестовые данные для склада
 def create_warehouse_data():
     np.random.seed(42)
