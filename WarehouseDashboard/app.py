@@ -1,4 +1,7 @@
-﻿import dash
+﻿# Дашборд для управления складом - лабораторная работа
+# Студент: Семёнов Ярослав Олегович
+# Группа: 4ИБ-1
+import dash
 from dash import dcc, html, Input, Output, dash_table
 import pandas as pd
 import plotly.express as px
