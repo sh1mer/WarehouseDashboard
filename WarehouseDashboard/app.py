@@ -141,7 +141,7 @@ def update_dashboard(product, warehouse):
     return stock_fig, category_fig, warehouse_fig, sales_fig, table_data, table_columns
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run_server(host='0.0.0.0', port=8050, debug=False)
 
 # Визуальное оформление завершено
 # Все графики работают корректно
